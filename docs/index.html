@@ -1,27 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Bootcamp Helper — Extensão Chrome</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 15px;
+      color: #222;
+      background: #f9f9f9;
+    }
+    h1 {
+      color: #0078d7;
+      text-align: center;
+    }
+    h2 {
+      border-bottom: 2px solid #0078d7;
+      padding-bottom: 6px;
+      margin-top: 30px;
+    }
+    a {
+      color: #0078d7;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    ol, ul {
+      margin-left: 20px;
+    }
+    p.download {
+      text-align: center;
+      margin-top: 40px;
+    }
+    p.download a {
+      display: inline-block;
+      background-color: #0078d7;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    p.download a:hover {
+      background-color: #005ea0;
+    }
+  </style>
 </head>
 <body>
   <h1>Bootcamp Helper</h1>
-  <p>Extensão simples de Chrome para o Bootcamp II. Envia um ping para o background script e realça links no site do Chrome Dev.</p>
+
+  <p>Extensão simples de Chrome para anotações rápidas. Permite que você escreva e salve notas diretamente no navegador, armazenando-as localmente para acesso rápido e fácil.</p>
 
   <h2>Instalação Manual</h2>
   <ol>
     <li>Acesse <code>chrome://extensions</code> e ative o modo Desenvolvedor.</li>
-    <li>Clique em "Carregar sem compactação" e selecione a pasta da extensão.</li>
-    <li>Clique no ícone da extensão e teste a funcionalidade.</li>
+    <li>Clique em <strong>Carregar sem compactação</strong> e selecione a pasta da extensão.</li>
+    <li>Clique no ícone da extensão e use a área de anotações para criar e salvar suas notas.</li>
   </ol>
 
   <h2>Permissões</h2>
   <ul>
-    <li><strong>storage</strong>: Armazena a data da instalação.</li>
-    <li><strong>tabs</strong>: Permite acesso às abas ativas.</li>
+    <li><strong>storage</strong>: Para salvar e carregar suas anotações.</li>
   </ul>
 
-  <h2>Download</h2>
-  <p><a href="../releases">Download da extensão (.zip)</a></p>
+  <p class="download">
+    <a href="../releases">Download da extensão (.zip)</a>
+  </p>
 </body>
 </html>

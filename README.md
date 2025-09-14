@@ -17,30 +17,30 @@ Extensão de anotações para Google Chrome (Manifest V3), desenvolvida no Bootc
 4. Clique em **"Carregar sem compactação"** e selecione a pasta da extensão.
 
 ## 🧩 Estrutura
-my-chrome-extension/
-├─ src/
-│ ├─ popup/
-│ │ ├─ popup.html # Interface do popup da extensão
-│ │ ├─ popup.js # Lógica do popup (salvar/carregar notas)
-│ │ └─ popup.css # Estilos do popup
-│ ├─ background/
-│ │ └─ service-worker.js # Service worker para background (eventos)
-│ ├─ content/
-│ │ └─ content.js # (Opcional) Script de conteúdo para manipular páginas
-│ ├─ assets/
-│ │ └─ logo.svg # Logo da extensão (se houver)
-│ └─ styles/
-│ └─ global.css # Estilos globais (se houver)
-├─ icons/
-│ ├─ icon16.png # Ícone 16x16 px
-│ ├─ icon32.png # Ícone 32x32 px
-│ ├─ icon48.png # Ícone 48x48 px
-│ └─ icon128.png # Ícone 128x128 px
-├─ docs/
-│ └─ index.html # Página para GitHub Pages
-├─ manifest.json # Manifesto da extensão
-├─ README.md # Este arquivo
-└─ LICENSE # Licença do projeto
+my-chrome-extension/  
+├─ src/  
+│ ├─ popup/  
+│ │ ├─ popup.html # Interface do popup da extensão  
+│ │ ├─ popup.js # Lógica do popup (salvar/carregar notas)  
+│ │ └─ popup.css # Estilos do popup  
+│ ├─ background/  
+│ │ └─ service-worker.js # Service worker para background (eventos)  
+│ ├─ content/  
+│ │ └─ content.js # (Opcional) Script de conteúdo para manipular   páginas
+│ ├─ assets/  
+│ │ └─ logo.svg # Logo da extensão 
+│ └─ styles/  
+│ └─ global.css # Estilos globais  
+├─ icons/  
+│ ├─ icon16.png # Ícone 16x16 px  
+│ ├─ icon32.png # Ícone 32x32 px  
+│ ├─ icon48.png # Ícone 48x48 px  
+│ └─ icon128.png # Ícone 128x128 px  
+├─ docs/  
+│ └─ index.html # Página para GitHub Pages  
+├─ manifest.json # Manifesto da extensão  
+├─ README.md # Este arquivo  
+└─ LICENSE # Licença do projeto  
 
 
 ## ⚙️ Uso
